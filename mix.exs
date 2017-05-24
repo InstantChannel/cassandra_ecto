@@ -43,7 +43,7 @@ defmodule CassandraEcto.Mixfile do
   defp deps do
     [
       {:cqerl, github: "fewlinesco/cqerl", only: :test},
-      {:cassandrex, "~> 0.1.0"},
+      {:cassandrex, github: "InstantChannel/cassandrex"}, 
       {:ecto, "~> 2.1.0"},
       {:espec, "~> 1.2.0", only: :test},
       {:excoveralls, "~> 0.5", only: :test},
